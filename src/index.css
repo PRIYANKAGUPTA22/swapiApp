@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: lavender;
+}
+#search{
+  display: inline-block;
+  width:300px;
+  height: 30px;
+  border: 1px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 2px 8px;
+  font-size: 13px;
+}
+#search[placeholder]{
+  line-height: 30px;
+}
+
+.autocomplete-container{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.autocomplete-menu{
+  background-color: #e5eaed;
+  padding: 0 10px 10px;
+  z-index: 10;
+}
+.searchContainer{
+  display: inline-block;
+  height: 35px;
+}
+.autocomplete-menu-item{
+  background-color: white;
+  background: #fff;
+  border-radius: 5px;
+  padding: 6px 10px;
+  margin-top: 5px;
+}
+.firstLi{
+  height: 10px;
+}
+.planet{
+  font-size: 12px;
+  text-align: center;
+  background-color: cornsilk;
+  margin-top: 20px;
+}
+.planetInfo{
+  text-align: left;
+  display: inline-block;
+  font-size: 14px;
+}
+.error{
+  font-size: 11px;
+  color: red;
+}
+.loginContainer li{
+  display: inline-block;
+  margin: 10px;
+}
+.loginContainer li>input{
+  width: 200px;
+}
+.loginContainer li>input,.loginContainer li>button{
+  display: inline-block;
+  height: 25px;
+  border: 1px;
+  border-radius: 5px;  
+  padding: 5px;
+  font-size: 12px;
+}
+.loginContainer li>button{
+  width:auto;
+  padding: 5px 15px;
+  height: 30px
+}
+.autocompleteCenter{
+  display: inline-block;
+}
+.logoutButton{
+  display: inline-block;
+  float: right;
+  margin: 35px 35px 0px 0px;
+}
+.mask{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: 0;
+}
